@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/Toliak/lab05.svg?branch=master)](https://travis-ci.org/Toliak/lab05)
+[![Build Status](https://travis-ci.com/Toliak/lab05.svg?branch=master)](https://travis-ci.com/Toliak/lab05)
 ## Laboratory work II
 
 Данная лабораторная работа посвещена изучению систем контроля версий на примере **Git**.
