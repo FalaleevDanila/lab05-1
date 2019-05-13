@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/Toliak/lab04.svg?branch=master)](https://travis-ci.org/Toliak/lab04)
+[![Build Status](https://travis-ci.org/Toliak/lab05.svg?branch=master)](https://travis-ci.org/Toliak/lab05)
 ## Laboratory work II
 
 Данная лабораторная работа посвещена изучению систем контроля версий на примере **Git**.
@@ -9,7 +9,7 @@ $ open https://git-scm.com
 
 ## Tasks
 
-- [x] 1. Создать публичный репозиторий с названием **lab02** и с лиценцией **MIT**
+- [x] 1. Создать публичный репозиторий с названием **lab05** и с лиценцией **MIT**
 - [x] 2. Сгенирировать токен для доступа к сервису **GitHub** с правами **repo**
 - [x] 3. Ознакомиться со ссылками учебного материала
 - [x] 4. Выполнить инструкцию учебного материала
@@ -50,9 +50,9 @@ $ git config --global hub.protocol https        # Установка перем�
 Работа с git
 
 ```ShellSession
-$ mkdir projects/lab02 && cd projects/lab02             # Создание папки и переход в нее
+$ mkdir projects/lab05 && cd projects/lab05             # Создание папки и переход в нее
 $ git init                                              # Создание пустого репозиторий
-Initialized empty Git repository in /home/toliak/Documents/Toliak/workspace/projects/lab02/.git/
+Initialized empty Git repository in /home/toliak/Documents/Toliak/workspace/projects/lab05/.git/
 $ git config --global user.name ${GITHUB_USERNAME}      # Установка переменной конфига user.name для git
 $ git config --global user.email ${GITHUB_EMAIL}        # Установка переменной конфига user.email для git
 # check your git global settings
@@ -62,14 +62,14 @@ $ git config -e --global                                # Вывод всего 
         name = Toliak
 [hub]
         protocol = https
-$ git remote add origin https://github.com/${GITHUB_USERNAME}/lab02.git     # Добавление ссылки на репозиторий на гитхабе
+$ git remote add origin https://github.com/${GITHUB_USERNAME}/lab05.git     # Добавление ссылки на репозиторий на гитхабе
 $ git pull origin master                                                    # Перенос изменения с гитхаба
 remote: Enumerating objects: 3, done.
 remote: Counting objects: 100% (3/3), done.
 remote: Compressing objects: 100% (2/2), done.
 remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 Unpacking objects: 100% (3/3), done.
-From https://github.com/Toliak/lab02
+From https://github.com/Toliak/lab05
  * branch            master     -> FETCH_HEAD
  * [new branch]      master     -> origin/master
 $ touch README.md                                                           # Создать README.md
@@ -95,11 +95,11 @@ Delta compression using up to 4 threads
 Compressing objects: 100% (2/2), done.
 Writing objects: 100% (3/3), 277 bytes | 277.00 KiB/s, done.
 Total 3 (delta 0), reused 0 (delta 0)
-To https://github.com/Toliak/lab02.git
+To https://github.com/Toliak/lab05.git
    fb79117..44830ab  master -> master
 ```
 
-Добавить на сервисе **GitHub** в репозитории **lab02** файл **.gitignore**
+Добавить на сервисе **GitHub** в репозитории **lab05** файл **.gitignore**
 со следующем содержимом:
 
 ```ShellSession
@@ -118,7 +118,7 @@ remote: Counting objects: 100% (4/4), done.
 remote: Compressing objects: 100% (2/2), done.
 remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 Unpacking objects: 100% (3/3), done.
-From https://github.com/Toliak/lab02
+From https://github.com/Toliak/lab05
  * branch            master     -> FETCH_HEAD
    44830ab..c52a23e  master     -> origin/master
 Updating 44830ab..c52a23e
